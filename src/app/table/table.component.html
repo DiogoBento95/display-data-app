@@ -1,1 +1,18 @@
-<p>table works!</p>
+<table>
+    <thead>
+      <th>Name</th>
+      <th>Age</th>
+      <th>Role</th>
+    </thead>
+    <tbody>
+      <tr *ngFor="let member of team">
+        <td>{{member.name}}</td>
+        <td>{{member.age}}</td>
+        <td>{{member.role}}</td>
+      </tr>
+    </tbody>
+  </table>
+<button>First Page</button>
+<button>Last Page</button>
+<button>Next Page</button>
+<button>Previous Page</button>

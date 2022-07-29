@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { DataComponent, TeamMember } from '../data.component';
 
 @Component({
   selector: 'app-table',
@@ -6,10 +7,16 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./table.component.css']
 })
 export class TableComponent implements OnInit {
+  team: TeamMember[] = [];
+  data: DataComponent = new DataComponent;
 
   constructor() { }
 
-  ngOnInit(): void {
+  ngOnInit() {
+    this.data.getTeam().subscribe(team => {
+      this.team = team;
+    })
+
   }
 
 }
