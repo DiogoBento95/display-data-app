@@ -36,6 +36,26 @@ export class DataComponent {
             name: "Valentino Carreiro",
             age: 25,
             role: "Backend"
+          },
+          {
+            name: "Salomé Câmara",
+            age: 22,
+            role: "Tester"
+          },
+          {
+            name: "Nélson",
+            age: 24,
+            role: "Mobile"
+          },
+          {
+            name: "John Cena",
+            age: 38,
+            role: "Can't see me"
+          },
+          {
+            name: "Chuck Norris",
+            age: 48,
+            role: "Fullstack Dev"
           }
         ])
       } 
