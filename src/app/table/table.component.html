@@ -1,4 +1,4 @@
-<table>
+<table class="table">
     <thead>
       <th>Name</th>
       <th>Age</th>
@@ -13,8 +13,13 @@
     </tbody>
   </table>
   <hr>
-<button (click)="firstPage()">First Page</button>
-<button (click)="lastPage()">Last Page</button>
+  <div class="btn-div">
+    <button class="btn btn-primary" (click)="firstPage()">First Page</button>
+    <button class="btn btn-warning" (click)="lastPage()">Last Page</button>
+  </div>
 <hr>
-<button (click)="nextPage()">Next Page</button>
-<button (click)="previousPage()">Previous Page</button>
+  <div class="btn-div">
+    <button class="btn btn-primary" (click)="nextPage()">Next Page</button>
+    <button class="btn btn-warning" (click)="previousPage()">Previous Page</button>
+  </div>
+
