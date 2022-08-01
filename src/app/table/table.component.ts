@@ -19,4 +19,20 @@ export class TableComponent implements OnInit {
 
   }
 
+  firstPage() {
+
+  }
+
+  lastPage() {
+
+  }
+
+  nextPage() {
+
+  }
+
+  previousPage() {
+
+  }
+  
 }

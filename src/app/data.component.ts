@@ -50,12 +50,12 @@ export class DataComponent {
           {
             name: "John Cena",
             age: 38,
-            role: "Can't see me"
+            role: "Backend"
           },
           {
             name: "Chuck Norris",
             age: 48,
-            role: "Fullstack Dev"
+            role: "Fullstack"
           }
         ])
       } 
