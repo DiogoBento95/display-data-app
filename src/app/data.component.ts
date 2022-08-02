@@ -14,7 +14,6 @@ export interface TeamMember {
 })
 export class DataComponent {
 
-
     getTeam(): Observable<TeamMember[]> {
         return of([
           {
